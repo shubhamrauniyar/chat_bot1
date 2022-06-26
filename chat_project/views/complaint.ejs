@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Complaint</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="complaint.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="header">
+      <nav class="navbar navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand mb-0 h1" href="#">Complain Archives</a>
+      </nav>
+
+
+    </div>
+  </div>
+  <div class="comaplintlist">
+   <% for(var i=0;i<arr.length;i++) {%>
+     <div class="complaint border">
+       <div class="complainttext">
+         <p>
+           <b>Mobile No:</b>
+           <span><%= arr[i].mobileno %></span>
+         </p>
+         <p>
+           <b>Complaint id:</b>
+           <span><%= arr[i].uniqid %></span>
+         </p>
+         <p>
+
+           <b>Department:</b>
+           <span><%= arr[i].dept %></span>
+         </p>
+         <p>
+
+
+         <b>Status:</b>
+         <span><%= arr[i].status %></span>
+       </p>
+       </div>
+       <div class="">
+         <form class="comaplintbutton" action="/complaintstatus" method="post">
+           <div class="acceptreject border">
+             <div class="accept">
+               <button class="btn btn-primary" type="submit" name="status" value=<%= "accept,"+arr[i].mobileno %>>CLICK HERE TO ACCEPT</button>
+             </div>
+             <div class="reject">
+               <button class="btn btn-danger" type="submit" name="status" value=<%= "reject,"+arr[i].mobileno %>>CLICK HERE TO REJECT</button>
+             </div>
+           </div>
+
+           <div class="completed border border-right-0">
+             <button class="btn btn-success" type="submit" name="status" value=<%= "completed,"+arr[i].mobileno %>>CLICK HERE TO MARK COMPLETE</button>
+
+           </div>
+
+         </form>
+       </div>
+
+     </div>
+     <% } %>
+
+
+
+
+  </div>
+</body>
+
+</html>

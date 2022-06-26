@@ -1,0 +1,212 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "good morning",
+        "good night",
+        "good to see you"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "see you soon",
+        "talk to you later",
+        "ok bye",
+        "tata bye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Bye,Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "ok ",
+        "ok thanks",
+        "thankful to you"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?",
+        "What are your timings?",
+        "What do you open?",
+        "When are you open?",
+        "what is your timing",
+        "timing schedule"
+      ],
+      "responses": [
+        "We're open every day 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?",
+        "Do you take upi?",
+        "do you accept upi?",
+        "Do you take phonepe?",
+        "do you accept phonepe?",
+        "Do you take google pay?",
+        "do you accept google pay?",
+        "do you accept paytm?"
+      ],
+      "responses": [
+        "We accept UPI, Cards ,E-wallets ",
+        "We accept most major credit cards, UPI"
+      ]
+    },
+    {
+      "tag": "electricity",
+      "patterns": [
+        "My wire gets shorted",
+        "My wire gets short-circuit",
+        "My wire caught fire due to short circuit",
+        "wire gets fire",
+        "transformer near my home not working",
+        "transformer not working",
+        "transformer got blown",
+        "transformer got short-circuit",
+        "supply fail",
+        "electric meter not working",
+        "meter not working",
+        "power supply is failed from days",
+        "power issue everyday power cut",
+        "power cut",
+        "power cut at my house",
+        "electric leak",
+        "fuse not working",
+        "fuse blown",
+        "fuse failed",
+        "my fuse is blown",
+        "power failure due to fuse",
+        "main power supply wire not working",
+        "electric fault",
+        "power failure since days",
+        "electric leak ",
+        "electric shock",
+        "low voltage electricty"
+      ],
+      "responses": [
+        "We have recorded your response and your complaint is transfered to Electric Department"
+      ]
+    },
+    {
+      "tag": "water",
+      "patterns": [
+        "My pipe gets chocked",
+        "My pipe is chocking",
+        "My pipe gets leak",
+        "My pipe is leaking",
+        "My tap gets damanged",
+        "My tap needs replacement",
+        "My water gets muddy",
+        "My water get muddy",
+        "My water gets salty",
+        "My water get salty",
+        "My water pipe is blocked",
+        "My water pipe gets blocked",
+        "My water pipe get block",
+        "My water tank get dirty",
+        "My water tank gets dirty",
+        "My water pipe get connected to sewage pipe",
+        "My water is coming unfiltered",
+        "My water pipe pressure get slow",
+        "My water speed is slow",
+        "My tank is taking time in filling water",
+        "My water tank gets overflow",
+        "My water is coming from severe",
+        "My dirty water is not going outside",
+        "water overflow",
+        "water supply is not working",
+        "water supply is stopped",
+        "water supply failure"
+      ],
+      "responses": [
+        "We Recorded your response and we will assign a technician soon"
+      ]
+    },
+    {
+      "tag": "gas",
+      "patterns": [
+        "gas leaking",
+        "My gas pipe gets leaked",
+        "My gas pipe is leaking",
+        "My gas bill get high",
+        "My gas bill gets high",
+        "My gas need registration",
+        "My gas get registered",
+        "My gas is coming slow",
+        "low flame",
+        "high flame",
+        "unequal gas",
+        "stove problem",
+        "catching fire instantly",
+        "gas pipe get cuts"
+      ],
+      "responses": [
+        "We Recorded your response and we will assign a technician soon"
+      ]
+    },
+    {
+      "tag": "Municipal Corporation",
+      "patterns": [
+        "sewage get blocked",
+        "sewage gets block",
+        "sewage get dirty",
+        "sewage gets dirty",
+        "drainage system is blocked",
+        "drainage system get blocked",
+        "drainage system gets block",
+        "drainage gets  overflow",
+        "drainage leak",
+        "drainage tank overflow",
+        "drainage tank get leaked",
+        "drainage tank gets leak",
+        "slurry water",
+        "muddy water",
+        "clean drainage",
+        "flood water",
+        "water passage get blocked",
+        "water passage get chocked",
+        "water connection at home",
+        "water not connected",
+        "water is very dirty",
+        "water is muddy",
+        "water is salty",
+        "water is not filtered",
+        "water is chlorinated"
+      ],
+      "responses": [
+        "We Recorded your response and we will assign a technician soon"
+      ]
+    }
+  ]
+}

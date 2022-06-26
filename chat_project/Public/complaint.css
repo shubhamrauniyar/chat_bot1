@@ -1,0 +1,98 @@
+body
+{
+  background-color: #e1f1dd;
+}
+
+.main
+{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.comaplintlist
+{
+
+
+margin :0 7%;
+background-color: #bfcba8;
+padding-top: 50px !important;
+min-height: 650px;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.complaint
+{
+  display: flex;
+  flex-direction: row;
+  margin:0 3%;
+}
+.complainttext
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:40px 200px;
+}
+.acceptreject
+{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding-top: 40px;
+
+}
+.comaplintbutton
+{
+  display: flex;
+  flex-direction: row;
+
+}
+.accept
+{
+  padding:20px 0px;
+}
+.completed
+{
+  padding: 90px 10px;
+}
+.connectionlist
+{
+  margin :0 10%;
+  background-color: #bfcba8;
+  padding-top: 50px !important;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedbacklist
+{
+  margin :0 15%;
+  background-color: #bfcba8;
+  padding-top: 50px !important;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+}
+.mobileno
+{
+  padding-top: 60px;
+  align-items: center;
+  text-align: center;
+  min-width: 300px;
+}
+.feedback
+{
+  display: flex;
+  flex-direction: row;
+  min-height: 150px;
+}
+.text
+{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}

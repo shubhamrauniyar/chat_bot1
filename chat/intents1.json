@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?","Do you take upi?","do you accept upi?","Do you take phonepe?","do you accept phonepe?","Do you take google pay?","do you accept google pay?"],
+         "responses": ["We accept UPI, Cards ,E-wallets ", "We accept most major credit cards, UPI"]
+        },
+        {"tag": "electricity",
+         "patterns": ["My wire gets shorted", "My wire gets short-circuit", "My wire caught fire due to short circuit","wire gets fire","transformer near my home not working","transformer not working","transformer got blown","transformer got short-circuit","supply fail","electric meter not working","meter not working","power supply is failed from days","power issue","power cut","electric leak","fuse not working","fuse blown","fuse failed","my fuse is blown","power failure due to fuse","main power supply wire not working","electric fault","power failure ","electric leak ","electric shock"],
+         "responses": ["We Recorded your response and we will assign a technician soon"]
+        }
+   ]
+}

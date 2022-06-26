@@ -119,7 +119,7 @@ def bag_of_words(s, words):
 # chat()
 
 
-client = MongoClient("mongodb+srv://shubham024:"+urllib.parse.quote("aman062")+"@cluster0.ujboz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+client = MongoClient
 db=client["whatsapp_Db"];
 collection=db["users"];
 complain=db["complain"];

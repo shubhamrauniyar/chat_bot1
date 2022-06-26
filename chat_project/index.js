@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
 
-mongoose.connect('mongodb+srv://shubham024:aman062@cluster0.ujboz.mongodb.net/whatsapp_Db?retryWrites=true&w=majority', {
+mongoose.connect', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, function(err) {
